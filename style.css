@@ -281,7 +281,7 @@ h2.names {
     color: #263461;
     text-align: right;
     display: inline-block;
-    background-image: url(img/logo-veto2.svg);
+    background-image: url(img/logo-veto.svg);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -509,7 +509,7 @@ h2 {
 }
 
 .team-member {
-    padding: 0 20px;
+    /*padding: 0 20px;*/
 }
 
 .docteurs {
@@ -1626,11 +1626,12 @@ span.wpcf7-not-valid-tip {
     }
 }
 
-@media (max-width: 1279px) {
+@media (max-width: 1200px) {
     .menuNav {
-        position: relative;
-        display: block;
-        height: 100px;
+        /*position: relative;*/
+        /*display: block;*/
+        /*height: 100px;*/
+        justify-content: start;
     }
     .menu-top-container {
         display: block;
