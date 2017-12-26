@@ -13,6 +13,7 @@ Template Name: vente
                 <?php get_sidebar(); ?>
 
                     <div class="content">
+                       <h2 class="bandeau bandeau-mt0">ESPACE VENTE</h2>
                         <section class="formeindex">
                             <div class="uniform-article">
                                 <?php query_posts('category_name=titre-intro-vente'); ?>
@@ -20,8 +21,7 @@ Template Name: vente
                                         <?php while(have_posts()) : the_post();?>
 
                                             <!-- affichage des articles -->
-                                            <h2 title="<?php the_title(); ?>"><?php the_title(); ?></h2>
-                                            <div class="index-separator"></div>
+                                            <!--<h2 title="<?php the_title(); ?>"><?php the_title(); ?></h2>-->
                                             <div class="post" id="post-<?php the_ID(); ?>">
                                                 <div class="post_content alignement_article">
                                                     <div class="contenu_article">
@@ -31,11 +31,14 @@ Template Name: vente
                                             </div>
                                             <?php endwhile; ?>
                                                 <?php endif; ?>
+                                                <div class="index-separator"></div>
                             </div>
 
                             <div class="vente">
                                 <div id="croquettes" class="separation">
-                                <?php include("img/svg/vente_svg/vente_croquette.php"); ?>
+                                <div class="numero animation anim">
+																<?php include("img/svg/vente_svg/vente_croquette.php"); ?>
+																</div>
                                     <h3>croquettes</h3>
                                     <i class="fa fa-chevron-down direction-vente" aria-hidden="true"></i>
 
@@ -64,8 +67,10 @@ Template Name: vente
                                 </div>
 
                                 <div id="vermifuges" class="separation">
-                                    <?php include("img/svg/vente_svg/vente_antiparasitaire.php"); ?>
-                                    <h3>vermifuges et antiparasitaires externes</h3>
+                                    <div class="numero animation anim">
+																		<?php include("img/svg/vente_svg/vente_antiparasitaire.php"); ?>
+																		</div>
+                                    <h3>vermifuges & antipara.</h3>
                                     <i class="fa fa-chevron-down direction-vente" aria-hidden="true"></i>
 
                                     <div class="uniform-article" id="article-vermifuges">
@@ -93,7 +98,9 @@ Template Name: vente
                                 </div>
 
                                 <div id="shampoings" class="separation">
-                                   <?php include("img/svg/vente_svg/vente_shampooing.php"); ?>
+                                   <div class="numero animation anim">
+																	 <?php include("img/svg/vente_svg/vente_shampooing.php"); ?>
+																	 </div>
                                     <h3>shampoings</h3>
                                     <i class="fa fa-chevron-down direction-vente" aria-hidden="true"></i>
 
@@ -122,7 +129,9 @@ Template Name: vente
                                 </div>
 
                                 <div id="brosses" class="separation">
-                                    <?php include("img/svg/vente_svg/vente_brosse.php"); ?>
+                                    <div class="numero animation anim">
+										<?php include("img/svg/vente_svg/vente_brosse.php"); ?>
+									</div>
                                     <h3>brosses</h3>
                                     <i class="fa fa-chevron-down direction-vente" aria-hidden="true"></i>
 
@@ -151,7 +160,9 @@ Template Name: vente
                                 </div>
 
                                 <div id="colliers" class="separation">
-                                    <?php include("img/svg/vente_svg/vente_collier.php"); ?>
+                                    <div class="numero animation anim">
+																		<?php include("img/svg/vente_svg/vente_collier.php"); ?>
+																		</div>
                                     <h3>Colliers et laisses</h3>
                                     <i class="fa fa-chevron-down direction-vente" aria-hidden="true"></i>
 

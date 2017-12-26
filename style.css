@@ -1,8 +1,8 @@
 /* Theme Name: 123VETO
 /* Theme Name: 123VETO
-Theme URI: http://www.123-veto.fr/ 
+Theme URI: http://www.123-veto.fr/
 Description: Thème pour le site 123 VETO
-Author: 
+Author:
     Solène Huault - mopi
     Lise Poirier - lise
     Julien Malle - Ju
@@ -29,7 +29,7 @@ Revisionned : Erwann DUCLOS
 }
 
 
-/* Le bleu : #263461 SVG DE L'ANCIEN BLEU 263461 
+/* Le bleu : #263461 SVG DE L'ANCIEN BLEU 263461
    Le orange : #F58900 */
 
 html,
@@ -162,18 +162,18 @@ a, .select-RDV input {
     justify-content: center;
     align-items: center;
     padding: 20px 30px;
-    background-color: rgba(4, 52, 89, 0.6);
+    background-color: rgba(251, 250, 255, 0.6);
 }
 
 #header h1 a {
     font-size: 2em;
-    color: #fff;
+    color: #263461;
     text-decoration: none;
 }
 
 #header h2 {
-    border-bottom: 2px solid #fff;
-    color: #eee;
+    border-bottom: 2px solid #374572;
+    color: #374572;
     margin: 20px 0 0 0;
     padding: 0;
     font-size: 1.5em;
@@ -210,7 +210,7 @@ h2.names {
     height: 150px;
     margin: 0 27px 0 0;
     background-image: url(img/logo-veto.svg);
-    background-size: 220%;
+    background-size: cover;
     background-position: center center;
 }
 
@@ -1045,15 +1045,15 @@ iframe {
     margin: 2em auto;
 }
 
- /* EDUEDU TODO  
+ /* EDUEDU TODO
    EDUEDU : CUSTOM RDV FORM */
 .appointments-instructions {
     display:none;
-}   
+}
 .appointments-wrapper > h3{
     font-size:2em;
     text-align: center;
-}   
+}
 .appointments-pagination a {
     box-shadow: none;
     background-image: none;
@@ -1642,7 +1642,7 @@ span.wpcf7-not-valid-tip {
         right: 0;
     }
     .logo-img {
-        display: none;
+        /*display: none;*/
     }
     /* supression de la sidebar */
     .sidebar {
@@ -1915,7 +1915,7 @@ span.wpcf7-not-valid-tip {
         border: 0;
     }
     /*====== SINGLE ARTICLE ======*/
-    
+
     .single-article {
         width: 75%;
         display: block;
@@ -2058,7 +2058,7 @@ span.wpcf7-not-valid-tip {
         height: 40px;
         font-size: 2em;
     }
-   
+
     /* ======= Contact ========== */
     .contact {
         display: inline;
@@ -2099,7 +2099,7 @@ span.wpcf7-not-valid-tip {
     .imgPage img {
         margin-top: 30px;
     }
-} 
+}
 
 
 
