@@ -92,7 +92,7 @@ i {
     padding-bottom: 10px;
 }
 
-.bouton-generique, .select-RDV input {
+.bouton-generique {
     width: 100%;
     height: 40px;
     background-color: white;
@@ -103,22 +103,6 @@ i {
 }
 
 
-.select-RDV-EDU input {
-    margin-bottom: 2em;
-    height: 40px;
-    background-color: white;
-    border: 1px solid darkgrey;
-    font-family: "Open Sans", sans-serif;
-    color: #F58900;
-    cursor: pointer;
-
-}
-.select-RDV-EDU  i{
-    margin: 0.5em 1em 0 0;
-}
-.select-RDV-edu .form{
-    background-color: whitesmoke;
-}
 
 #section-generique {
     display: inline-flex;
@@ -1082,26 +1066,7 @@ span.wpcf7-not-valid-tip {
 
 /*============================*/
 
-.priseRDV-form {
-    margin-top: 40px;
-}
 
-.priseRDV-form p {
-    color: #444;
-    padding-bottom: 40px;
-}
-
-.priseRDV-form h2 {
-    text-align: center;
-}
-
-.select-RDV {
-    width: 80%;
-}
-
-.select-RDV span {
-    color: #222;
-}
 
 #birs_appointment_form .birs_field_content,
 #birs_appointment_form .birs_form_field select {
