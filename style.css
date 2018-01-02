@@ -1689,6 +1689,9 @@ span.wpcf7-not-valid-tip {
     .bloc-small-savoirfaire div:hover{
          display:block;
     }
+    #bloc-large-savoirfaire{
+      display:none ;
+    }
 }
 
 @media (min-width: 871px) {
@@ -1701,6 +1704,7 @@ span.wpcf7-not-valid-tip {
 }
 
 @media (max-width: 871px) {
+
     .menuNav {
         display: flex;
         justify-content: space-between;

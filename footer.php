@@ -1,10 +1,10 @@
-<?php 
+<?php
     //ça en ligne 1 sinon ça plante.
 ?>
 
     <div id="footer">
         <p> Copyright &#169;
-            <?php print(date(Y)); ?>
+            <?php print(date("Y")); ?>
                 <?php bloginfo('name'); ?>
                     <br /> Site propulsé par <a href="http://wordpress.org/">WordPress</a> et con&ccedil;u par La Team 123VETO
 
@@ -37,6 +37,5 @@
         </div>
     </div>
 
-    
-   <?php wp_footer(); ?>
 
+   <?php wp_footer(); ?>
